@@ -17,7 +17,6 @@
 
 .tri{
     width: 5%;
-    color: white;
 }
 
 .tri0{
@@ -43,12 +42,4 @@
     margin-top: 0.7%;
     margin-left: 0.25%;
     display: block;
-}
-
-.menu h3{
-    display: absolute;
-    top: 0;
-    left: 0;
-    padding: 10pt;
-    margin: 0;
 }
