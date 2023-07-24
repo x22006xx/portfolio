@@ -43,3 +43,33 @@
     margin-left: 0.25%;
     display: block;
 }
+
+.menulink{
+    color: white;
+    font-size: 40pt;
+    text-decoration: none;
+}
+
+.li0{
+    position: absolute;
+    margin-top: -10.5%;
+    margin-left: 1%;
+}
+
+.li1{
+    position: absolute;
+    margin-top: -7.625%;
+    margin-left: 2.25%;
+}
+
+.li2{
+    position: absolute;
+    margin-top: -10.5%;
+    margin-left: 6.5%;
+}
+
+.li3{
+    position: absolute;
+    margin-top: -4.75%;
+    margin-left: 1%;
+}
