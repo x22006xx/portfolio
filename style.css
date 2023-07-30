@@ -44,7 +44,7 @@ header{
 }
 
 .tri3{
-    margin-top: -3.25%;
+    margin-top: -3.35%;
 }
 
 .menulink{
@@ -72,7 +72,11 @@ header{
     margin-top: -32.5%;
     margin-left: 2.5%;
 }
+.space{
+    padding: 8%;
+}
 
-.about{
-    margin-top: 50%;
+.toptitle{
+    font-size: 42pt;
+    text-align: center;
 }
