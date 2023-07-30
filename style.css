@@ -13,7 +13,8 @@ header{
 }
 
 .logo{
-    width: 10%;
+    max-width: 10%;
+    max-height: 10%;
 }
 
 .title{
@@ -72,11 +73,31 @@ header{
     margin-top: -32.5%;
     margin-left: 2.5%;
 }
-.space{
+.topspace{
     padding: 8%;
 }
 
 .toptitle{
     font-size: 42pt;
     text-align: center;
+}
+
+.aboutspace{
+    padding: 12%;
+}
+
+.about{
+    text-align: center;
+}
+
+.rubi{
+    margin-bottom: 0;
+}
+
+.number_name{
+    margin-top: 0;
+}
+
+.no1space{
+    padding: 12%;
 }
