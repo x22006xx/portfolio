@@ -16,60 +16,60 @@
 }
 
 .tri{
-    width: 5%;
+    max-width: 5%;
 }
 
 .tri0{
-    margin-top: 0.25%;
+    margin-top: -0.9%;
     margin-left: 0.25%;
     display: block;
 }
 
 .tri1{
     transform: rotate(180deg);
-    margin-top: -5%;
+    margin-top: -6%;
     margin-left: 0.5%;
     display: block;
 }
 
 .tri2{
-    margin-top: -5.625%;
+    margin-top: -6.4625%;
     margin-left: 5.9%;
     display: block;
 }
 
 .tri3{
-    margin-top: 0.7%;
+    margin-top: -0.625%;
     margin-left: 0.25%;
     display: block;
 }
 
 .menulink{
     color: white;
-    font-size: 40pt;
+    font-size: 10pt;
     text-decoration: none;
 }
 
 .li0{
     position: absolute;
-    margin-top: -10.5%;
+    margin-top: -11%;
     margin-left: 1%;
 }
 
 .li1{
     position: absolute;
-    margin-top: -7.625%;
+    margin-top: -8.25%;
     margin-left: 2.25%;
 }
 
 .li2{
     position: absolute;
-    margin-top: -10.5%;
+    margin-top: -11%;
     margin-left: 6.5%;
 }
 
 .li3{
     position: absolute;
-    margin-top: -4.75%;
+    margin-top: -5.5%;
     margin-left: 1%;
 }
