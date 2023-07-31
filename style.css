@@ -52,6 +52,11 @@ header{
     text-decoration: none;
     position: absolute;
     color: white;
+    font-weight: normal;
+}
+
+.menulink:hover{
+    font-weight: bold;
 }
 
 .li0{
