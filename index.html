@@ -20,21 +20,24 @@
             <h3><img class="tri tri1" src="./mat/triangle.svg" alt="" class="triangle"></h3>
             <h3><img class="tri tri2" src="./mat/triangle.svg" alt="" class="triangle"></h3>
             <h3><img class="tri tri3" src="./mat/triangle.svg" alt="" class="triangle"></h3>
-            <a href="" class="menulink li0">Top</a>
-            <a href="" class="menulink li1">About</a>
-            <a href="" class="menulink li2">No1</a>
-            <a href="" class="menulink li3">No2</a>
+            <a href="#toplink" class="menulink li0">Top</a>
+            <a href="#aboutlink" class="menulink li1">About</a>
+            <a href="#no1link" class="menulink li2">No1</a>
+            <a href="#no2link" class="menulink li3">No2</a>
         </div>
         
     </header>
 
+    <div id="toplink"></div>
     <div class="topspace"></div>
 
     <div class="toptitle">
         <h1>Portfolio</h1>
     </div>
 
-    <div class="aboutspace"></div>
+    <div class="aboutspaceA"></div>
+    <div id="aboutlink"></div>
+    <div class="aboutspaceB"></div>
 
     <div class="about">
 
@@ -48,19 +51,54 @@
 
     </div>
 
-    <div class="no1space"></div>
+    <div class="no1spaceA"></div>
+    <div id="no1link"></div>
+    <div class="no1spaceB"></div>
 
     <div class="no1">
         <h2 class="no1title">No1</h2>
         <img src="mat/ocean01_1.0076.jpg" alt="" class="fish">
-        <h5 class="no1text"></h5>
+        <h5 class="no1text">
+            CGコンテンツ基礎2にてイナダをモデリングしました。<br>
+            イナダはブリの幼魚で、体長20～30cmほどのものを指します。<br>
+        </h5>
     </div>
+
+    <div class="no2spaceA"></div>
+    <div id="no2link"></div>
+    <div class="no2spaceB"></div>
 
     <div class="no2">
         <h2 class="no2title">No2</h2>
         <audio controls src="mat/sound.wav" class="oceanbgm"></audio>
-        <h5 class="no2text"></h5>
+        <h5 class="no2text">
+            No1の魚に併せてBGMを作成しました。<br>
+            全体で30秒必要だったため、BPMを192にすることで<br>
+            4小節 = 5秒になるよう調整しています。
+        </h5>
     </div>
 
+    <div class="ftspace"></div>
+
 </body>
+
+<script>
+    function smoothScroll(target) {
+        const element = document.querySelector(target);
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll("a[href^='#']").forEach(anchor => {
+            anchor.addEventListener("click", function (e) {
+                e.preventDefault();
+                const target = this.getAttribute("href");
+                smoothScroll(target);
+            });
+        });
+    });
+</script>
+
 </html>

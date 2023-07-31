@@ -82,8 +82,12 @@ header{
     text-align: center;
 }
 
-.aboutspace{
-    padding: 12%;
+.aboutspaceA{
+    padding: 3%;
+}
+
+.aboutspaceB{
+    padding: 9%;
 }
 
 .about{
@@ -98,6 +102,56 @@ header{
     margin-top: 0;
 }
 
-.no1space{
-    padding: 12%;
+.no1spaceA{
+    padding: 5%;
+}
+
+.no1spaceB{
+    padding: 7%;
+}
+
+.no1{
+    text-align: center;
+    display: block;
+}
+
+.no1title{
+    text-align: center;
+}
+
+.fish{
+    max-width: 30%;
+}
+
+.no1text{
+    margin-left: 2%;
+    text-align: left;
+    display: inline-block;
+}
+
+.no2spaceA{
+    padding: 3%;
+}
+
+.no2spaceB{
+    padding: 9%;
+}
+
+.no2{
+    text-align: center;
+    display: block;
+}
+
+.no2title{
+    text-align: center;
+}
+
+.no2text{
+    margin-left: 2%;
+    text-align: left;
+    display: inline-block;
+}
+
+.ftspace{
+    padding: 8%;
 }
